@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height:100vh;
+    width:100vw;
+    overflow-x: hidden;
+
+}
+#main{
+
+    width:100%;
+    
+   height:480vh;
+
+}
+.home{
+    width:100%;
+    height:100vh;
+ 
+
+}
+.nav{
+    height:40px;
+    width:90%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+    position:relative;
+    padding:26px 0px;
+    
+    
+    
+}
+.nav .nleft{
+    display:flex;
+    gap:30px;
+}
+.nleft a{
+    text-decoration: none;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nright a{
+    text-decoration:none;
+    color:black;
+}
+.nav .centerdiv{
+    text-decoration: none;
+    color:black;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.herodiv{
+    min-height:100px;
+    width:90%;
+    margin:auto;
+   display:flex;
+   align-items:center;
+   justify-content: space-between;
+    margin-top:10vw;
+}
+.sustain{
+    width:10vw;
+}
+.herodiv .susimagewrapper{
+    width:100%;
+    height:15vw;
+    position:relative;
+   
+    overflow:hidden;
+}
+.sustain p{
+    font-size: 12px;
+    opacity: .5;
+    text-transform: capitalize;
+    font-weight:800;
+    margin:10px 0px;
+}
+.susimagewrapper img{
+    height:150%;
+    width:150%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.ephipheral{
+    
+    width: 28.6vw;
+    
+    position:relative;
+    
+}
+.visit{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.visit h4{
+    font-size:12px;
+    font-weight:400;
+
+}
+.visit .circlev{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border:1px solid #5e5e5e;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    
+}
+.circlev i{
+    color:#5e5e5e;
+}
+.heading{
+    position:absolute;
+    top:-12%;
+    left:-10%;
+
+}
+.heading h1{
+    font-size:3.5vw;
+    font-weight:100;
+    line-height:1;
+    
+    
+    letter-spacing: 1px;
+}
+.ephipheral img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    
+
+}
+.ephipheral p{
+    
+   
+    font-weight:100;
+}
+.imagec{
+    height:fit-content;
+    width:fit-content;
+   
+}
+.motiv{
+    width:90%;
+    margin:auto;
+    padding:10% 0%;
+    
+}
+.motiv h3{
+    font-size:1.6vw;
+    font-weight:400;
+    color:#5e5e5e;
+}
+.paraghraph{
+    width:50%;
+    display:flex;
+    
+   
+    margin:0px 40%;
+}
+.paraghraph p{
+    line-height:30px;
+    position: relative;
+    font-weight:400;
+    
+    
+}
+p span{ 
+    display:inline-block;
+  height:30px;
+  width:70px;
+  background:red;
+  border-radius:100px;
+  margin:0px 10px;
+  margin-bottom:-10px;
+  
+  
+}
+#spanone{
+    background-image:url('bluegirl.jpg');
+    background-position:0% 55%;
+    background-size:cover;
+}
+#spantwo{
+    background-image:url('shaljam.jpg');
+    background-position:0% 50%;
+    background-size:cover;
+}
+#spanthree{
+    background-image:url('grass.jpg');
+    background-position:0% 55%;
+    background-size:cover;
+}
+.imageContainer{
+    width:90%;
+    margin:auto;
+    margin-top:8vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+
+    
+}
+.box1{
+    height:25vw;
+    width:18vw;
+  
+}
+.imagec{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.imagec img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.imageContainer h3{
+    text-transform:capitalize;
+    margin:10px 0px;
+}
+.imagetext {
+    font-size:1vw;
+    letter-spacing:1px;
+    margin:10px 0px;
+    text-transform:capitalize;
+    font-weight:400;
+    opacity:0.6;
+}
+
+
+.box2{
+    height:34vw;
+    width:19vw;
+  
+}
+.imageText{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.imageText img{
+    height:100%;
+    width:100%;
+
+}
+.text{
+    text-transform:capitalize;
+    font-weight:400;
+    opacity:0.6;
+}
+.secondcontainer{
+  width:80%;
+  height:90%;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.bottleImage{
+    width:60%;
+    height:35vw;
+   
+    
+}
+.bottleImage img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    background-position:center;
+
+}
+.bottledescription p{
+    margin:10px 0px;
+    font-size:1.8vh;
+    font-weight:400;
+}
+#futura{
+   height:100vh;
+   width:100vw;
+   
+    margin:30px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#futura  .button h2{
+    font-weight:300;
+    text-transform:lowercase;
+}
+.button{
+    height:6vw;
+    width:16vw;
+    background:white;
+    border-radius:10px;
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+#futura video{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    display:none;
+
+}
+.button button{
+    height:30px;
+    width:70%;
+    background:rgb(230, 221, 221);;
+    border:0.8px solid rgb(230, 221, 221);
+    border-radius:50px;
+}
